@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo App</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="stylesheet" href="assets/icons.css">
+
+</head>
+
+<body class="app">
+  <h1 class="title">Welcome to your tasks</h1>
+  <form onsubmit="addList(event, this)" class="list-form">
+    <input name="name" type="text" placeholder="New list of todos">
+    <button type="submit"><i class="icon icon-plus"></i></button>
+  </form>
+  <div id="todos" class="todos">
+  </div>
+  <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>
