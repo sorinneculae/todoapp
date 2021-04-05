@@ -1,3 +1,3 @@
 # todoapp
 
-Basic app that demonstrate the basic concepts from graphQL
+Basic app that demonstrates the basic **graphQL** concepts
